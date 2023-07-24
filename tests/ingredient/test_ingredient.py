@@ -2,6 +2,7 @@
 from src.models.ingredient import Ingredient, restriction_map
 
 
+# Req 1
 def test_ingredient():
     # Teste do ingrediente "queijo"
     ingone = Ingredient("queijo")
